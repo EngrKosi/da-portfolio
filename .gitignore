@@ -1,0 +1,16 @@
+# Save this as ".gitignore" (with the leading dot) in the repo root
+
+# Data: never commit raw or generated data, regenerate it with a script
+data/
+
+# Secrets (Kaggle API token, environment files)
+kaggle.json
+.env
+
+# Jupyter and Python clutter
+.ipynb_checkpoints/
+__pycache__/
+
+# macOS
+.DS_Store
+.venv/
